@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
     // top head lines
     //https://newsapi.org/v2/top-headlines?country=us&apiKey=cc186411735643798befec48f3282536
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'News App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
